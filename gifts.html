@@ -29,9 +29,13 @@
     <link rel="stylesheet" href="css/flexslider.css">
     <link rel="stylesheet" href="css/styles.min.css">
     <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="gifts.css">
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+    </style>
 </head>
 <body id="top">
 <!--[if lt IE 8]>
@@ -79,38 +83,63 @@
     <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
 </section>
 
-<section id="map" class="section-padding">
-    <div class="text-center">
-        <h3>How do I get there?</h3>
+<div class="container">
+    <div class="row">
+        <div class="text-center">
+            <h3 class="header">Send us a message</h3>
+        </div>
     </div>
-    <div id="gm-map-canvas" style="padding: 10px, 10px, 10px, 10px;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77748.49715742008!2d-1.8956557636025586!3d52.48564390192968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870a4ab79e655e1%3A0xaf9b003d215e14db!2sThe%20Marigold!5e0!3m2!1sen!2suk!4v1664823183863!5m2!1sen!2suk" width="100%" height="500" style="border:20;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div id="map-content-wrapper" class="container pointer-events-none">
-        <div class="row">
-            <div class="col-xs-offset-2 col-xs-8 col-md-offset-3 col-md-6">
-                <div class="text-center">
-                    <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
-                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
-                    </div>
-                </div>
-                <div id="map-content" class="pointer-events-auto">
-                    <div class="row">
-                        <h5>Venue Name</h5>
-                        <p>218 Sladefield road, B82SX</p>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-md-12" style="padding: 5px;">
-                            <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
-                                map</a>
+    <div class="formbold-main-wrapper">
+        <!-- Author: FormBold Team -->
+        <!-- Learn More: https://formbold.com -->
+        <div class="formbold-form-wrapper">
+            <form action="https://formspree.io/f/myyvnlva" method="POST">
+                <div class="row">
+                    <div class="formbold-mb-2">
+                        <div>
+                            <label for="firstName" class="formbold-form-label"> Name </label>
+                            <input
+                                type="text"
+                                name="firstName"
+                                id="firstName"
+                                placeholder="Your full name"
+                                class="formbold-form-input"
+                            />
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="formbold-mb-2">
+                    <label for="message" class="formbold-form-label">
+                        Message for bride and groom
+                    </label>
+                    <textarea
+                        rows="6"
+                        name="message"
+                        id="message"
+                        class="formbold-form-input"
+                    ></textarea>
+                    </div>
+                </div>
+
+            <div class="row">
+                <button class="formbold-btn">Send Message</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center content">
+                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
             </div>
         </div>
     </div>
-</section>
-
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
