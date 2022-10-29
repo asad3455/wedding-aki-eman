@@ -1,17 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
-.hero .hero-content {
-    padding-top: 30%;
-}
 .hero .hero-content p{
-    font-family: 'Cookie', cursive;
+    font-family: 'La Belle Aurore', cursive;
     font-size: 30px!important;
     color: #fff;
     padding-bottom: 0;
 }
 .hero .hero-content h4{
     padding-top: 0%;
-    font-family: 'Cookie', cursive;
+    font-family: 'La Belle Aurore', cursive;
     color: #fff;
     font-size: 100px;
 }
@@ -39,14 +36,14 @@
         padding-top: 30%;
     }
     .hero .hero-content p{
-        font-family: 'Cookie', cursive;
+        font-family: 'La Belle Aurore', cursive;
         font-size: 16px!important;
         color: #fff;
         padding-bottom: 0;
     }
     .hero .hero-content h4{
         padding-top: 0%;
-        font-family: 'Cookie', cursive;
+        font-family: 'La Belle Aurore', cursive;
         color: #fff;
         font-size: 54px;
     }
@@ -68,7 +65,7 @@
     }
 
     .hero .hero-content p{
-        font-family: 'Cookie', cursive;
+        font-family: 'La Belle Aurore', cursive;
         font-size: 16px!important;
         color: #fff;
         padding-bottom: 0;
@@ -76,7 +73,7 @@
 
     .hero .hero-content h4{
         padding-top: 0%;
-        font-family: 'Cookie', cursive;
+        font-family: 'La Belle Aurore', cursive;
         color: #fff;
         font-size: 54px;
     }
@@ -317,7 +314,7 @@
     }
 
     .hero .hero-content p{
-        font-family: 'Cookie', cursive;
+        font-family: 'La Belle Aurore', cursive;
         font-size: 16px!important;
         color: #fff;
         padding-bottom: 0;
@@ -325,7 +322,7 @@
 
     .hero .hero-content h4{
         padding-top: 0%;
-        font-family: 'Cookie', cursive;
+        font-family: 'La Belle Aurore', cursive;
         color: #fff;
         font-size: 54px;
     }
@@ -371,7 +368,7 @@
 
 @media screen and (max-width: 480px) {
     .hero .hero-content {
-        padding-top: 90%;
+        padding-top: 110%;
     }
     
     .hero .hero-content img {
@@ -431,7 +428,7 @@
         display: none;
     }
     .hero .hero-content p{
-        font-family: 'Cookie', cursive;
+        font-family: 'La Belle Aurore', cursive;
         font-size: 16px!important;
         color: #fff;
         padding-bottom: 0;
@@ -439,7 +436,7 @@
 
     .hero .hero-content h4{
         padding-top: 0%;
-        font-family: 'Cookie', cursive;
+        font-family: 'La Belle Aurore', cursive;
         color: #fff;
         font-size: 54px;
     }
@@ -460,7 +457,7 @@
     }
 
     .hero .hero-content p{
-        font-family: 'Cookie', cursive;
+        font-family: 'La Belle Aurore', cursive;
         font-size: 16px!important;
         color: #fff;
         padding-bottom: 0;
@@ -468,7 +465,7 @@
 
     .hero .hero-content h4{
         padding-top: 0%;
-        font-family: 'Cookie', cursive;
+        font-family: 'La Belle Aurore', cursive;
         color: #fff;
         font-size: 54px;
     }

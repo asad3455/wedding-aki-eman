@@ -1,59 +1,72 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Work+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+@font-face {
+    font-family: Lafadz;
+    src: url(../fonts/Lafadz.otf);
+  }
 
 p {
     font-size: 25px;
-    font-family: Work Sans,Arial,sans-serif;    
+    font-family: 'Cormorant Garamond', serif;    
     line-height: 29px;
     color: rgba(28, 54, 83, 0.8);
     padding-bottom: 5px;
 }
 
 .main-title{
-    font-family: 'Cookie', cursive;
-    font-size: 35px;
+    font-family: 'Cormorant Garamond', serif;    
+    font-size: 25px;
 }
 
 .main-title-alt{
-    font-family: 'Cookie', cursive;
+    font-family: 'La Belle Aurore', cursive;
     font-size: 50px;
-    color:#24248d
+    color:#f14e95
 }
 
 .arabic-font{
-    font-size: 20px;
+    font-family: "Lafadz";
+    font-size: 30px;
     margin-bottom: 10px;
     line-height: 1.5;
     font-weight: 500;
 }
 
 .sub-title{
-    font-family: Work Sans,Arial,sans-serif;    
+    font-family: 'Cormorant Garamond', serif;    
     font-size: 20px;
     font-weight: bold;
-    color:#24248d
+    color:#f14e95
 }
 
 .body-text{
-    font-family: Work Sans,Arial,sans-serif;    
+    font-family: 'Cormorant Garamond', serif;    
     padding: 20px;
     font-size: 17px;
     font-weight: 500;
 }
 
+.bank-border{
+    border:1px solid #f14e95;
+}
+
+.bank-heading{
+    color: #f14e95;
+}
+
 h1 {
     font-size: 60px;
-    font-family: Work Sans,Arial,sans-serif;    
+    font-family: 'Cormorant Garamond', serif;    
 }
 
 h2 {
     font-size: 40px;
     font-weight: 300;
     color:#f14e95;
-    font-family: 'Cookie', cursive;
+    font-family: 'La Belle Aurore', cursive;
 }
 
 h3 {
@@ -63,12 +76,12 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 3px;
     line-height: 29px;
-    font-family: Work Sans,Arial,sans-serif;    
+    font-family: 'Cormorant Garamond', serif;    
 }
 
 h4 {
     font-size: 18px;
-    font-family: Work Sans,Arial,sans-serif;    
+    font-family: 'Cormorant Garamond', serif;    
 }
 
 h5 {
@@ -76,7 +89,7 @@ h5 {
     color: #3D4351;
     text-transform: uppercase;
     font-weight: 500;
-    font-family: Work Sans,Arial,sans-serif;    
+    font-family: 'Cormorant Garamond', serif;    
 }
 
 .btn {
@@ -140,6 +153,12 @@ h5 {
 
 .btn-margin-right {
     margin-right: 20px
+}
+
+.bank-details{
+    font-size: 20px;
+    padding: 0px;
+    margin: 0;
 }
 
 section.introduction,
@@ -446,7 +465,7 @@ section .header {
 
 .hero {
     min-height: 750px;
-    background: url("../img/hero-dimmer.png"), url("../img/hero-min.jpg") center center;
+    background: url("../img/hero-dimmer.png"), url("../img/main_photo_cropped.png") center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -488,7 +507,7 @@ section .header {
 
 .fixed {
     position: fixed;
-    background-color: rgba(55, 36, 40, 0.88);
+    background-color: rgba(70, 108, 164, 0.808);
     z-index: 999;
     width: 100%
 }
@@ -772,7 +791,19 @@ header .member-actions {
     font-size: 13px;
     font-style: italic;
     text-transform: lowercase;
-    color: rgba(106, 100, 241, 0.7);
+    color: rgba(241,78,149, 0.7);
+}
+
+.timeline h4{
+    font-family: 'Cormorant Garamond', serif;    
+    font-weight: bold;
+    color: #000;
+}
+
+.timeline .time {
+    font-size: 13px;
+    font-style: italic;
+    color: #000;
 }
 
 .blog {
@@ -1128,13 +1159,13 @@ body.modal-open {
 
 @media screen and (max-width: 900px) {
     .main-title{
-        font-family: 'Cookie', cursive;
-        font-size: 40px;
+        font-family: 'Cormorant Garamond', serif;    
+        font-size: 25px;
     }
     
     .sub-title{
-        font-family: Work Sans,Arial,sans-serif;    
-        font-size: 15px;
+        font-family: 'Cormorant Garamond', serif;    
+        font-size: 20px;
         font-weight: bold;
         color:#f14e95;
     }
@@ -1148,9 +1179,20 @@ body.modal-open {
 
     p {
         font-size: 15px;
-        font-family: Work Sans,Arial,sans-serif;    
+        font-family: 'Cormorant Garamond', serif;    
         line-height: 29px;
         color: rgba(28, 54, 83, 0.8);
         padding-bottom: 5px;
+    }
+    .bank-details{
+        font-size: 14px;
+        padding: 0px;
+        margin: 0;
+    }
+    .bank-border{
+        border:1px solid #f14e95;
+    }
+    .bank-heading{
+        color: #f14e95;
     }
 }
