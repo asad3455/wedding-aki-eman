@@ -8,13 +8,7 @@
 html{
   scroll-behavior: smooth;
 }
-body{
-  background: #3ea0e2;
-}
-::selection{
-  color: #fff;
-  background: #3ea0e2;
-}
+
 .wrapper{
   max-width: 1080px;
   margin: 50px auto;

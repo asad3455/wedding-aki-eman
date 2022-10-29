@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+.hero .hero-content {
+    padding-top: 30%;
+}
+.hero .hero-content p{
+    font-family: 'Cookie', cursive;
+    font-size: 30px!important;
+    color: #fff;
+    padding-bottom: 0;
+}
+.hero .hero-content h4{
+    padding-top: 0%;
+    font-family: 'Cookie', cursive;
+    color: #fff;
+    font-size: 100px;
+}
+.hero .hero-content img{
+    max-width: 80px;  
+    margin-bottom: 24px; 
+}
+
+
 @media screen and (max-width: 1200px) {
     header {
         width: 90%;
@@ -13,7 +36,23 @@
 
 @media screen and (max-width: 1024px) {
     .hero .hero-content {
-        padding-top: 50%;
+        padding-top: 30%;
+    }
+    .hero .hero-content p{
+        font-family: 'Cookie', cursive;
+        font-size: 16px!important;
+        color: #fff;
+        padding-bottom: 0;
+    }
+    .hero .hero-content h4{
+        padding-top: 0%;
+        font-family: 'Cookie', cursive;
+        color: #fff;
+        font-size: 54px;
+    }
+    .hero .hero-content img{
+        max-width: 80px;  
+        margin-bottom: 24px; 
     }
 }
 
@@ -26,6 +65,25 @@
 
     .hero .hero-content {
         padding-top: 50%;
+    }
+
+    .hero .hero-content p{
+        font-family: 'Cookie', cursive;
+        font-size: 16px!important;
+        color: #fff;
+        padding-bottom: 0;
+    }
+
+    .hero .hero-content h4{
+        padding-top: 0%;
+        font-family: 'Cookie', cursive;
+        color: #fff;
+        font-size: 54px;
+    }
+
+    .hero .hero-content img{
+        max-width: 80px;  
+        margin-bottom: 24px; 
     }
 
     .header-nav {
@@ -237,7 +295,7 @@
     
     #map-content {
         margin-top: 0;
-        padding: 50px;
+        padding: 20px;
     }
 
     .rsvp {
@@ -255,7 +313,26 @@
 
 @media screen and (max-width: 640px) {
     .hero .hero-content {
-        padding-top: 100%;
+        padding-top: 80%;
+    }
+
+    .hero .hero-content p{
+        font-family: 'Cookie', cursive;
+        font-size: 16px!important;
+        color: #fff;
+        padding-bottom: 0;
+    }
+
+    .hero .hero-content h4{
+        padding-top: 0%;
+        font-family: 'Cookie', cursive;
+        color: #fff;
+        font-size: 54px;
+    }
+    
+    .hero .hero-content img{
+        max-width: 80px;  
+        margin-bottom: 24px; 
     }
 
     #eng-pics .img-wrap i {
@@ -294,7 +371,7 @@
 
 @media screen and (max-width: 480px) {
     .hero .hero-content {
-        padding-top: 110%;
+        padding-top: 90%;
     }
     
     .hero .hero-content img {
@@ -353,7 +430,24 @@
     .down-arrow {
         display: none;
     }
+    .hero .hero-content p{
+        font-family: 'Cookie', cursive;
+        font-size: 16px!important;
+        color: #fff;
+        padding-bottom: 0;
+    }
 
+    .hero .hero-content h4{
+        padding-top: 0%;
+        font-family: 'Cookie', cursive;
+        color: #fff;
+        font-size: 54px;
+    }
+    
+    .hero .hero-content img{
+        max-width: 80px;  
+        margin-bottom: 24px; 
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -363,5 +457,24 @@
 
     .rsvp {
         padding-top: 20px;
+    }
+
+    .hero .hero-content p{
+        font-family: 'Cookie', cursive;
+        font-size: 16px!important;
+        color: #fff;
+        padding-bottom: 0;
+    }
+
+    .hero .hero-content h4{
+        padding-top: 0%;
+        font-family: 'Cookie', cursive;
+        color: #fff;
+        font-size: 54px;
+    }
+    
+    .hero .hero-content img{
+        max-width: 80px;  
+        margin-bottom: 24px; 
     }
 }
