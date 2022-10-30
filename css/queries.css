@@ -325,6 +325,7 @@
         font-family: 'La Belle Aurore', cursive;
         color: #fff;
         font-size: 54px;
+        padding: 0;
     }
     
     .hero .hero-content img{
@@ -439,6 +440,7 @@
         font-family: 'La Belle Aurore', cursive;
         color: #fff;
         font-size: 54px;
+        padding: 0!important;
     }
     
     .hero .hero-content img{
@@ -468,6 +470,7 @@
         font-family: 'La Belle Aurore', cursive;
         color: #fff;
         font-size: 54px;
+        padding: 0;
     }
     
     .hero .hero-content img{
